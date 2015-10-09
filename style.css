@@ -64,8 +64,9 @@
   width: 24.5%;
   vertical-align: top;
   height: 240px;
-  margin: 0;
+  margin: 0 auto;
   padding-bottom: 73px;
+  margin-left: -4px;
 }
 
 .col-4 img {
