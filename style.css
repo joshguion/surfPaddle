@@ -5,8 +5,10 @@
 
 .col-1 {
   width: 100%;
-  height: 400px;
-  background-image: url(file://localhost/Users/joshguion/rockinocean2.png);
+  min-height: 400px;
+  background-image: url(images/ocean.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .col-1 p {
@@ -16,48 +18,44 @@
   padding-bottom: 100px;
 }
 
-
 .col-2 {
-  display: inline-block;
-  width: 65%;
-  vertical-align: top;
-  background-color: white;
+  width: 60%;
 }
-
 .col-3 {
   margin: 5px;
-  width:30%;
+  width:29%;
   float:right;
 }
 
-.col-3 img {
-  height: 80px;
-  margin: 0 auto;
+#big-circle-face {
+  width: 20%;
+  margin-left:40%;
 }
 
-.col-3 img, .ann-marie {
-  padding-left: 58px;
+#paddleboard {
+width: 70%;
+margin-left: 15%;
 }
 
-.ann-marie {
+
+#ann-marie {
   color: #0F6DB3;
   font-family: 'Khula', sans-serif;
+  text-align: center;
 }
 
 .ann-media {
   list-style: none;
   color: #A2B3BF;
   font-family: 'Khula', sans-serif;
+  text-align: center;
 }
-
 .ann-media li {
   display: inline-block;
-  padding-right: 100px;
 }
-
 .container {
     margin: 50px auto;
-    width: 95%;
+    width: 80%;
 }
 
 .col-4 {
@@ -110,32 +108,30 @@ display: inline-block;
   margin: 0 auto;
   color: #1770B4;
 }
+#ann-media {
 
-.big-cirlce-face {
-  height: 30px;
 }
 
-.paddleboard {
-  height: 800px;
-  margin-left:0;
-  z-index: 1;
-}
-
-.about-ad {
+#about-ad {
   text-decoration: underline;
-  padding-left: 80px;
+  margin-left: 54%;
 }
 
 nav a {
   text-decoration: none;
 }
-
-.anchor {
-  margin-left:600px;
+#anchor {
+  padding-top: 1%;
 }
 
-.anchor3 {
-  margin-left: 180px;
+#anchor3 {
+  margin-left: .5%;
+  margin-right: 44%;
+}
+#wave {
+  width: 30px;
+  margin-left: 160px;
+  margin-top: 5%;
 }
 
 a:link, a:visited {
@@ -143,36 +139,33 @@ a:link, a:visited {
 }
 
 .col-1 nav li {
-  margin-right: 5px;
   display: inline-block;
   font-family: 'Khula', sans-serif;
   color: #083451;
-  margin-left: -300;
 }
 
-h1 {
+.col-1 h1 {
   text-align: center;
+  width: 100%;
   font-size: 7em;
   margin: auto 0;
-  padding-top: 100px;
+  padding-top: 6.75%;
   color: white;
   font-family: 'Khula', sans-serif;
   font-weight: lighter;
-
 }
 
-h2 {
+.container h2 {
   margin-left:50px;
   font-size: 4em;
   font-family: 'Oswald', sans-serif;
   color: #083452;
 }
 
-.glass-img {
+#glass-img {
   max-height: 13px;
   float:right;
-  padding-top: 4px;
-  padding-right: 178px;
+  padding-top: 1.25%;
 }
 .box-links {
   width: 450px;
@@ -200,19 +193,19 @@ h5 {
   font-family: 'Khula', sans-serif;
   margin-top: -50px;
   font-size: 1em;
-  color: darkslategray;
+  color: white;
 }
 
 h6 {
   color: #006BB5;
   font-size: 1em;
   padding-top: 30px;
-  padding-right: 30px;
+  padding-left: 15%;
   font-family: 'Khula', sans-serif;
 }
 
 .h6-p {
-  padding-right:30px;
+  padding-left:15%;
 }
 
 span {
@@ -221,7 +214,7 @@ span {
 }
 
 .footer-div {
-  height: 100px;
+  min-height: 100px;
   width: 100%;
   background-color: #083452;
   margin-top: 1px;
@@ -235,22 +228,17 @@ span {
   font-family: 'Khula', sans-serif;
   color: #A2B3BF;
   display: inline-block;
-  float: right;
-  text-align: center;
-
 }
-
+.footer-div ul {
+  margin-left: 65%;
+  margin-top: -2.25%;
+}
 .footer-txt {
   text-align: center;
   margin-bottom: 50px;
   margin-top: 50px;
   border-top: solid lightgray 1px;
   padding-top: 35px;
-}
-
-.footer-pics {
-  margin:0;
-  padding:0;
 }
 
 .tiy2013 {
@@ -261,11 +249,11 @@ span {
 .tiy-logo {
   margin-top: 20px;
   margin-left: 100px;
-  z-index: 1;
 }
-
 
 p {
   font-family: 'Khula', sans-serif;
   color: #A2B3BF;
+}
+
 }
