@@ -16,6 +16,9 @@
   .col-1 {
     min-height: 200px;
   }
+  .vanish {
+    display: none;
+  }
   #anchor3 {
     display: none;
   }
@@ -103,4 +106,16 @@
   .footer-div nav ul li:nth-child(4) {
     margin-left:39%;
   }
+  .footer-txt {
+    border-top: solid transparent 1px;
+  }
+}
+
+
+@media (max-width:415px){
+
+
+
+
+
 }
